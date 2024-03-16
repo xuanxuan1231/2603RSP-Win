@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "2603RSP-Win (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "2603RSP-Win (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
