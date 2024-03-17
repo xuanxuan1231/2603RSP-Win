@@ -58,7 +58,7 @@ namespace _2603RSP_Win
 
         private void online_Click(object sender, RoutedEventArgs e)
         {
-            MyWebView.Source = new Uri("https://xuanxuan1231-class-html.netlify.app");
+            MyWebView.Source = new Uri("https://xuanxuan1231-class-html.netlify.app/rsp.html");
             //addressBar.Text = MyWebView.Source.OriginalString;
         }
 
