@@ -53,6 +53,9 @@ Height="48">
                 <Button x:Name="online" Click="online_Click">
                     联机
                 </Button>
+                <Button x:Name="readme" Click="Readme_click">
+                    自述文件
+                </Button>
             </StackPanel>
         </Grid>
         <controls:WebView2 x:Name="MyWebView" Grid.ColumnSpan="3"  Grid.Row="2" Source="https://xuanxuan1231-class-html.netlify.app/rsp.html" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>

@@ -17,6 +17,7 @@ using Windows.Foundation.Collections;
 using WinRT.Interop;
 
 
+
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
@@ -37,6 +38,7 @@ namespace _2603RSP_Win
             m_AppWindow.Title = "Ëæ»úÑ¡ÈË£¨PWA£©";
         }
         string str = AppDomain.CurrentDomain.BaseDirectory + "/Assets/rsp.html";
+        string readme_str = AppDomain.CurrentDomain.BaseDirectory + "/Assets/rsp-readme.html";
 
         private void refresh_Click(object sender, RoutedEventArgs e)
         {
@@ -62,6 +64,11 @@ namespace _2603RSP_Win
             //addressBar.Text = MyWebView.Source.OriginalString;
         }
 
+        private void Readme_click(object sender, RoutedEventArgs e)
+        {
+            MyWebView.Source = new Uri(readme_str);
+            //addressBar.Text = MyWebView.Source.OriginalString;
+        }
 
     }
 }
